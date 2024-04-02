@@ -1,0 +1,41 @@
+body {
+    background-color: bisque;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 23px;
+    box-sizing: border-box;
+}
+
+p{
+    text-decoration: none;
+    font-family: 'Kural', 'Arial Black', serif;
+    font-weight: normal;
+    color: #6a94cc;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 0;
+    display: inline-block; 
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Kural', 'Arial Black', serif;
+    font-weight: normal;
+    color: #6a94cc;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 0;
+    display: inline-block; 
+    border: solid 2px black;
+    border-radius: 1em; 
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: rgb(173, 165, 173);
+}

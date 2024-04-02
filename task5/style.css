@@ -1,0 +1,73 @@
+body{
+    background-color: bisque;
+}
+
+.trafficLight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+    margin:0;
+}
+
+button{
+    text-decoration: none;
+    font-family: 'Kural', 'Arial Black', serif;
+    font-weight: normal;
+    color: #6a94cc;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 0;
+    display: inline-block; 
+    border-radius: 1em;
+}
+
+input {
+    text-decoration: none;
+    font-family: 'Kural', 'Arial Black', serif;
+    font-weight: normal;
+    color: #6a94cc;
+    font-size: 1em;
+    padding: 4px 8px; /* Уменьшаем внутренние отступы */
+    margin: 0;
+    display: inline-block;
+    width: 300px; /* Устанавливаем ширину поля ввода */
+    height: 40px; /* Устанавливаем высоту поля ввода */
+    border: solid 2px black;
+    transition: background-color 0.3s; /* Добавляем плавный переход цвета фона */
+}
+
+
+p,label{
+    text-decoration: none;
+    font-family: 'Kural', 'Arial Black', serif;
+    font-weight: normal;
+    color: #6a94cc;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 0;
+    display: inline-block; 
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Kural', 'Arial Black', serif;
+    font-weight: normal;
+    color: #6a94cc;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 0;
+    display: inline-block; 
+    border: solid 2px black;
+    border-radius: 1em; 
+    transition: background-color 0.3s;
+}
+
+div{
+    margin: 10px;
+}
+
+a:hover {
+    background-color: rgb(173, 165, 173);
+}
+

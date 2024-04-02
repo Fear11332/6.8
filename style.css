@@ -1,0 +1,36 @@
+body {
+    background-color: bisque;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    margin: 23px;
+    box-sizing: border-box; /* Включение границ и отступов в общий размер элемента */
+  }
+  
+  a {
+    text-decoration: none;
+    font-family: 'Kural', 'Arial Black', serif;
+    font-weight: normal;
+    color: #6a94cc;
+    font-size: 2em;
+    padding: 10px 20px;
+    margin: 0;
+    border: solid 2px black;
+    border-radius: 1em; 
+    display: block; 
+    transition: background-color 0.3s; /* Добавляем плавный переход цвета фона */
+  }
+  
+  li:hover a {
+    background-color: rgb(173, 165, 173);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
