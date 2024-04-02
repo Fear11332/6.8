@@ -1,10 +1,3 @@
-<style>
-    body{
-        background-image:url("https://images.wallpaperscraft.ru/image/single/fon_piatna_temnyj_91678_1920x1080.jpg");
-
-    }
-</style>
-
 ## Описание выполненного задания
 
 ### Привет, мир
